@@ -1,0 +1,24 @@
+.wrapper {
+	margin: 30px auto;
+	max-width: 400px;
+}
+.textField {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 60px;
+	border-radius: 8px;
+	font-size: 24px;
+	padding: 10px;
+	color: white;
+}
+
+.active {
+	font-weight: 700;
+	color: red;
+}
+
+.calculator {
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+	display: grid;
+}
